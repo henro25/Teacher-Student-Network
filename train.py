@@ -140,7 +140,7 @@ def run():
 
     
     print("--"*200)
-    print(f"BEST TEACHER ACCURACY IS {best_acc*100}%")
+    print(f"BEST STUDENT ACCURACY IS {best_acc*100}%")
 
     teacher_student_model = TeacherStudentNetwork.TeacherStudentNetwork(
         in_channels=config.in_channels,
